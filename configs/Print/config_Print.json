@@ -1,0 +1,8 @@
+{
+  "serviceURL": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/BHUPExportWebMap/GPServer/Export%20Web%20Map",
+  "defaultTitle": "BHUP - Web Portal",
+  "defaultAuthor": "CW2SM",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "A3 Landscape"
+}

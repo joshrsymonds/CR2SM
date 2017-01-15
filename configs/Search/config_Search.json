@@ -1,0 +1,119 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "Design_3814_44",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/44",
+      "name": "Structures - 200CDDI",
+      "placeholder": "",
+      "searchFields": [
+        "PitID"
+      ],
+      "displayField": "autocad_block_name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Design_3814_40",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/40",
+      "name": "Structures - 100CDDI",
+      "placeholder": "",
+      "searchFields": [
+        "PitID"
+      ],
+      "displayField": "autocad_block_name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Design_3814_32",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/32",
+      "name": "Control Line - 200CIAL01",
+      "placeholder": "",
+      "searchFields": [
+        "LayerName"
+      ],
+      "displayField": "FileName",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Design_3814_26",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/26",
+      "name": "Control Line - 100CIAL01",
+      "placeholder": "",
+      "searchFields": [
+        "LayerName"
+      ],
+      "displayField": "FileName",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "SiteInvestigation_7571_18",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/18",
+      "name": "JV Existing Boreholes",
+      "placeholder": "",
+      "searchFields": [
+        "LocationType",
+        "Name"
+      ],
+      "displayField": "Name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "SiteInvestigation_7571_17",
+      "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/17",
+      "name": "JV Design Boreholes",
+      "placeholder": "",
+      "searchFields": [
+        "Name",
+        "Type"
+      ],
+      "displayField": "Name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "Esri World Geocoder",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Esri World Geocoder",
+      "countryCode": "",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    }
+  ]
+}

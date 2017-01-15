@@ -1,0 +1,4009 @@
+{
+  "layerInfos": [
+    {
+      "name": "Site Photos",
+      "id": "SitePhotos_6185_0",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SitePhotos/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "Longitude",
+            "alias": "Longitude",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Latitude",
+            "alias": "Latitude",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Altitude",
+            "alias": "Altitude",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Direction",
+            "alias": "Direction",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateCaptured",
+            "alias": "DateCaptured",
+            "show": true
+          },
+          {
+            "name": "CameraModel",
+            "alias": "CameraModel",
+            "show": true
+          },
+          {
+            "name": "jpeg_exif_pixelxdimension",
+            "alias": "jpeg_exif_pixelxdimension",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "jpeg_exif_pixelydimension",
+            "alias": "jpeg_exif_pixelydimension",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FullSizeJPEG",
+            "alias": "FullSizeJPEG",
+            "show": false
+          },
+          {
+            "name": "ThumbnailJPEG",
+            "alias": "ThumbnailJPEG",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Line - BR11",
+      "id": "Design_3814_5",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/5"
+      },
+      "show": true
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_6",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/6"
+      },
+      "show": true
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_8",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/8"
+      },
+      "show": true
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_9",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/9"
+      },
+      "show": true
+    },
+    {
+      "name": "General Arrangement - 100STBR21",
+      "id": "Design_3814_12",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/12"
+      },
+      "show": true
+    },
+    {
+      "name": "Deck plank arrangement - 100STBR21",
+      "id": "Design_3814_13",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/13"
+      },
+      "show": false
+    },
+    {
+      "name": "General Arrangement - 100STBR31",
+      "id": "Design_3814_16",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/16"
+      },
+      "show": true
+    },
+    {
+      "name": "Deck plank arrangement - 100STBR31",
+      "id": "Design_3814_17",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/17"
+      },
+      "show": false
+    },
+    {
+      "name": "General Arrangement - 100STBR31",
+      "id": "Design_3814_19",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/19",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true
+          },
+          {
+            "name": "LayerDescription",
+            "alias": "LayerDescription",
+            "show": true
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Deck plank arrangement - 100STBR31",
+      "id": "Design_3814_20",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/20"
+      },
+      "show": false
+    },
+    {
+      "name": "Design - 100CIAL01",
+      "id": "Design_3814_25",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/25",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true
+          },
+          {
+            "name": "LayerDescription",
+            "alias": "LayerDescription",
+            "show": true
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "CAD - 100CIAL01",
+      "id": "Design_3814_26",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/26"
+      },
+      "show": true
+    },
+    {
+      "name": "Control Line Text - 100CIAL01",
+      "id": "Design_3814_27",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/27"
+      },
+      "show": true
+    },
+    {
+      "name": "Control Line - 100CIAL01",
+      "id": "Design_3814_28",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/28"
+      },
+      "show": true
+    },
+    {
+      "name": "Hatch - 100CIAL01",
+      "id": "Design_3814_29",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/29"
+      },
+      "show": true
+    },
+    {
+      "name": "Design - 200CIAL01",
+      "id": "Design_3814_31",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/31"
+      },
+      "show": true
+    },
+    {
+      "name": "CAD - 200CIAL01",
+      "id": "Design_3814_32",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/32"
+      },
+      "show": true
+    },
+    {
+      "name": "Control Line Text - 200CIAL01",
+      "id": "Design_3814_33",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/33"
+      },
+      "show": true
+    },
+    {
+      "name": "Control Line - 200CIAL01",
+      "id": "Design_3814_34",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/34"
+      },
+      "show": true
+    },
+    {
+      "name": "Hatch - 200CIAL01",
+      "id": "Design_3814_35",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/35"
+      },
+      "show": true
+    },
+    {
+      "name": "Lines - 100CDDI",
+      "id": "Design_3814_41",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/41"
+      },
+      "show": false
+    },
+    {
+      "name": "Structures - 100CDDI",
+      "id": "Design_3814_42",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/42"
+      },
+      "show": false
+    },
+    {
+      "name": "Basins / Wetlands - 100CDDI",
+      "id": "Design_3814_43",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/43"
+      },
+      "show": false
+    },
+    {
+      "name": "Lines - 200CDDI",
+      "id": "Design_3814_45",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/45"
+      },
+      "show": false
+    },
+    {
+      "name": "Structures - 200CDDI",
+      "id": "Design_3814_46",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/46"
+      },
+      "show": false
+    },
+    {
+      "name": "Basins / Wetlands - 200CDDI",
+      "id": "Design_3814_47",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/47"
+      },
+      "show": false
+    },
+    {
+      "name": "200CIAL01 - CD 12d",
+      "id": "Design_3814_60",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/60"
+      },
+      "show": false
+    },
+    {
+      "name": "200CIAL01 - CD CAD",
+      "id": "Design_3814_61",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/61"
+      },
+      "show": false
+    },
+    {
+      "name": "200CIAL01 - CD Hatch",
+      "id": "Design_3814_62",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/62"
+      },
+      "show": false
+    },
+    {
+      "name": "Lines - 100CDDI",
+      "id": "Design_3814_71",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/71"
+      },
+      "show": false
+    },
+    {
+      "name": "Structures - 100CDDI",
+      "id": "Design_3814_72",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/72"
+      },
+      "show": false
+    },
+    {
+      "name": "Basins / Wetlands - 100CDDI",
+      "id": "Design_3814_73",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/73"
+      },
+      "show": false
+    },
+    {
+      "name": "Lines - 200CDDI",
+      "id": "Design_3814_75",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/75"
+      },
+      "show": false
+    },
+    {
+      "name": "Structures - 200CDDI",
+      "id": "Design_3814_76",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/76"
+      },
+      "show": false
+    },
+    {
+      "name": "Basins / Wetlands - 200CDDI",
+      "id": "Design_3814_77",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/77"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_84",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/84"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_85",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/85"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_87",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/87"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_88",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/88"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_95",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/95"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_96",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/96"
+      },
+      "show": false
+    },
+    {
+      "name": "Line_temp",
+      "id": "Design_3814_98",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/98"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_99",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/99"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_100",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/100"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_103",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/103"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_104",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/104"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_106",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/106"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_107",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/107"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_108",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/108"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_110",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/110"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_111",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/111"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_113",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/113"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_114",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/114"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_115",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/115"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_117",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/117"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_118",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/118"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_120",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/120"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_121",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/121"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_122",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/122"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_125",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/125"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_126",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/126"
+      },
+      "show": false
+    },
+    {
+      "name": "Lines",
+      "id": "Design_3814_128",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/128"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_129",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/129"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_130",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/130"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_132",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/132"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_133",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/133"
+      },
+      "show": false
+    },
+    {
+      "name": "Lines",
+      "id": "Design_3814_135",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/135"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_136",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/136"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_137",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/137"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DLRV_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_143",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/143"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DTRS_Anno_Tender_2016_10_22",
+      "id": "Design_3814_146",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/146"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DTRS_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_147",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/147"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DTRS_Area_Tender_2016_10_22",
+      "id": "Design_3814_148",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/148"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DLIG_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_150",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/150"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DLIG_Area_Tender_2016_10_22",
+      "id": "Design_3814_151",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/151"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DITS_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_153",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/153"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DITS_Conduits___Pits_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_154",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/154"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DITS_Conduits___Pits_Anno_Tender_2016_10_22",
+      "id": "Design_3814_155",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/155"
+      },
+      "show": false
+    },
+    {
+      "name": "XBHUP_DRSI_Polyline_Tender_2016_10_22",
+      "id": "Design_3814_158",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/158"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_163",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/163"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_164",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/164"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_166",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/166"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_167",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/167"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_170",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/170"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_171",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/171"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_173",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/173"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_174",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/174"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_176",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/176"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_177",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/177"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_179",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/179"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_180",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/180"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_182",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/182"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_183",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/183"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_185",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/185"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_186",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/186"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_189",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/189"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_190",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/190"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_192",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/192"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_193",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/193"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_195",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/195"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_196",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/196"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_198",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/198"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_199",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/199"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_201",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/201"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_202",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/202"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_204",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/204"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_205",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/205"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_208",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/208"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_209",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/209"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_211",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/211"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_212",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/212"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_214",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/214"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_215",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/215"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_217",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/217"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_218",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/218"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_224",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/224"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_225",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/225"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_228",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/228"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_229",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/229"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_232",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/232"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_233",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/233"
+      },
+      "show": false
+    },
+    {
+      "name": "Design",
+      "id": "Design_3814_236",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/236"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_237",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/237"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_241",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/241"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_243",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/243"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_244",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/244"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_246",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/246"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_248",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/248"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_249",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/249"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_251",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/251"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_253",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/253"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_254",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/254"
+      },
+      "show": false
+    },
+    {
+      "name": "CAD",
+      "id": "Design_3814_256",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/256"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_258",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/258"
+      },
+      "show": false
+    },
+    {
+      "name": "Labels",
+      "id": "Design_3814_259",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/259"
+      },
+      "show": false
+    },
+    {
+      "name": "Hatch",
+      "id": "Design_3814_261",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/261"
+      },
+      "show": false
+    },
+    {
+      "name": "Southern Interchange (CAD)",
+      "id": "Design_3814_264",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/264"
+      },
+      "show": false
+    },
+    {
+      "name": "6 Lane Highway (CAD)",
+      "id": "Design_3814_265",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/265"
+      },
+      "show": false
+    },
+    {
+      "name": "Northern Interchange (CAD)",
+      "id": "Design_3814_266",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/266"
+      },
+      "show": false
+    },
+    {
+      "name": "Local Road (CAD)",
+      "id": "Design_3814_267",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/267"
+      },
+      "show": false
+    },
+    {
+      "name": "Line",
+      "id": "Design_3814_269",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/269"
+      },
+      "show": false
+    },
+    {
+      "name": "Southern & Northern Interchange",
+      "id": "Design_3814_271",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/271"
+      },
+      "show": false
+    },
+    {
+      "name": "6 Lane North",
+      "id": "Design_3814_272",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/272"
+      },
+      "show": false
+    },
+    {
+      "name": "6 Lane Highway",
+      "id": "Design_3814_273",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Design/MapServer/273"
+      },
+      "show": false
+    },
+    {
+      "name": "USQ - Koala Scat",
+      "id": "SiteInvestigation_7571_3",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/3"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2012",
+      "id": "SiteInvestigation_7571_4",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2013",
+      "id": "SiteInvestigation_7571_5",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2011 - 2015",
+      "id": "SiteInvestigation_7571_6",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "BHUP_Threatened_Flora_Survey_Points",
+      "id": "SiteInvestigation_7571_7",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "RPS - 2016",
+      "id": "SiteInvestigation_7571_9",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Richmond Birdwing vine",
+      "id": "SiteInvestigation_7571_11",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/11"
+      },
+      "show": false
+    },
+    {
+      "name": "Macadamia Nut (Macadamia Integrifolia)",
+      "id": "SiteInvestigation_7571_12",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/12"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2011 - 2015",
+      "id": "SiteInvestigation_7571_13",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/13"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2011 Habitat Sites",
+      "id": "SiteInvestigation_7571_14",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/14"
+      },
+      "show": false
+    },
+    {
+      "name": "JV Design Boreholes",
+      "id": "SiteInvestigation_7571_17",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/17",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "autocad_block_name",
+            "alias": "autocad_block_name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LocationType",
+            "alias": "LocationType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "JV Existing Boreholes",
+      "id": "SiteInvestigation_7571_18",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/18",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "LocationType",
+            "alias": "Location Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "Layer Name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "Date Updated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "QLD Gov. Boreholes",
+      "id": "SiteInvestigation_7571_20",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/20"
+      },
+      "show": false
+    },
+    {
+      "name": "Seismic Lines (Investigation)",
+      "id": "SiteInvestigation_7571_21",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/SiteInvestigation/MapServer/21",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Latest",
+      "id": "Boundaries_3779_1",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/1"
+      },
+      "show": true
+    },
+    {
+      "name": "Post Tender",
+      "id": "Boundaries_3779_2",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Site Office",
+      "id": "Boundaries_3779_4",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Environmental",
+      "id": "Boundaries_3779_6",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Latest Fauna Fence 4m Buffer",
+      "id": "Boundaries_3779_8",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Environmental",
+      "id": "Boundaries_3779_9",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Boundaries/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Drainage_survey_DPUP_100_Polyline",
+      "id": "Utilities_3851_2",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Design Line (100)",
+      "id": "Utilities_3851_4",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Survey Point (100)",
+      "id": "Utilities_3851_5",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Survey Line (100)",
+      "id": "Utilities_3851_6",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Sewerage Design Line (100)",
+      "id": "Utilities_3851_8",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Sewerage Survey Point (100)",
+      "id": "Utilities_3851_9",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Sewerage_survey_DPUP_100_Polyline",
+      "id": "Utilities_3851_10",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/10"
+      },
+      "show": false
+    },
+    {
+      "name": "Water Survey Pit (100)",
+      "id": "Utilities_3851_12",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/12"
+      },
+      "show": false
+    },
+    {
+      "name": "Water Survey Line (100)",
+      "id": "Utilities_3851_13",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/13"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Design Line (100)",
+      "id": "Utilities_3851_15",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/15"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Survey Point (100)",
+      "id": "Utilities_3851_16",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/16"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Survey Line (100)",
+      "id": "Utilities_3851_17",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/17"
+      },
+      "show": false
+    },
+    {
+      "name": "Drainage_survey_DPUP_200_Polyline",
+      "id": "Utilities_3851_20",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/20"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Design Line (200)",
+      "id": "Utilities_3851_22",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/22"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Survey Point (200)",
+      "id": "Utilities_3851_23",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/23"
+      },
+      "show": false
+    },
+    {
+      "name": "Electricity Survey Line (200)",
+      "id": "Utilities_3851_24",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/24"
+      },
+      "show": false
+    },
+    {
+      "name": "Sewerage Survey Point (200)",
+      "id": "Utilities_3851_26",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/26"
+      },
+      "show": false
+    },
+    {
+      "name": "Water Design Line (200)",
+      "id": "Utilities_3851_28",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/28"
+      },
+      "show": false
+    },
+    {
+      "name": "Water Survey Pit (200)",
+      "id": "Utilities_3851_29",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/29"
+      },
+      "show": false
+    },
+    {
+      "name": "Water Survey Line (200)",
+      "id": "Utilities_3851_30",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/30"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Design Line (200)",
+      "id": "Utilities_3851_32",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/32"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Survey Point (200)",
+      "id": "Utilities_3851_33",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/33"
+      },
+      "show": false
+    },
+    {
+      "name": "Telecomunications Survey Line (200)",
+      "id": "Utilities_3851_34",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/34"
+      },
+      "show": false
+    },
+    {
+      "name": "Tender Design",
+      "id": "Utilities_3851_35",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/35"
+      },
+      "show": false
+    },
+    {
+      "name": "DBYD & NUO Data",
+      "id": "Utilities_3851_36",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Utilities/MapServer/36"
+      },
+      "show": false
+    },
+    {
+      "name": "DBYD & NUO Data",
+      "id": "Survey_3116_1",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Survey/MapServer/1"
+      },
+      "show": true
+    },
+    {
+      "name": "Drainage",
+      "id": "Survey_3116_2",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Survey/MapServer/2"
+      },
+      "show": true
+    },
+    {
+      "name": "Vegetation",
+      "id": "Survey_3116_3",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Survey/MapServer/3"
+      },
+      "show": false
+    },
+    {
+      "name": "Topographical",
+      "id": "Survey_3116_4",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Survey/MapServer/4"
+      },
+      "show": true
+    },
+    {
+      "name": "Cadastral Parcels - All",
+      "id": "LandParcelPropertyFramework_222_4",
+      "layer": {
+        "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer/4"
+      },
+      "show": true
+    },
+    {
+      "name": "Locality Boundaries",
+      "id": "LandParcelPropertyFramework_222_19",
+      "layer": {
+        "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer/19"
+      },
+      "show": false
+    },
+    {
+      "name": "Local Government Areas",
+      "id": "LandParcelPropertyFramework_222_20",
+      "layer": {
+        "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer/20"
+      },
+      "show": false
+    },
+    {
+      "name": "JV Design Boreholes",
+      "id": "Geology_3784_1",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "autocad_block_name",
+            "alias": "autocad_block_name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LocationType",
+            "alias": "LocationType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "JV Existing Boreholes",
+      "id": "Geology_3784_2",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "LocationType",
+            "alias": "Location Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "Layer Name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "Date Updated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "QLD Gov. Boreholes",
+      "id": "Geology_3784_4",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Seismic Lines (Investigation)",
+      "id": "Geology_3784_5",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Moreton Region - Regional structure 1978",
+      "id": "Geology_3784_7",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "Moreton Region - Regional surface geology 1978",
+      "id": "Geology_3784_8",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Acid Sulfate Soils of the Maroochy & Caloundra area",
+      "id": "Geology_3784_10",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/10"
+      },
+      "show": false
+    },
+    {
+      "name": "State planning policy (trigger areas)",
+      "id": "Geology_3784_11",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Geology/MapServer/11"
+      },
+      "show": false
+    },
+    {
+      "name": "Modelled potential habitat - threatened species",
+      "id": "Environmental_6896_6",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "RE",
+            "alias": "RE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PERCENT",
+            "alias": "PERCENT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RE_LABEL",
+            "alias": "RE_LABEL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PC_LABEL",
+            "alias": "PC_LABEL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_PT_BUFF",
+            "alias": "LF_PT_BUFF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_DIST",
+            "alias": "LF_DIST",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_VALUE",
+            "alias": "LF_VALUE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_COM",
+            "alias": "LF_COM",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_CONF",
+            "alias": "LF_CONF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_HAB",
+            "alias": "LF_HAB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LF_POINT_H",
+            "alias": "LF_POINT_H",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Habitat Suitability Model (v7.0)",
+      "id": "Environmental_6896_7",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "Modelled potential habitat - threatened species",
+      "id": "Environmental_6896_9",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Habitat Suitability Model (v7.0)",
+      "id": "Environmental_6896_10",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/10"
+      },
+      "show": false
+    },
+    {
+      "name": "Modelled potential habitat - threatened species",
+      "id": "Environmental_6896_12",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/12",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "RE",
+            "alias": "RE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PERCENT",
+            "alias": "PERCENT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RE_LABEL",
+            "alias": "RE_LABEL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PC_LABEL",
+            "alias": "PC_LABEL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_PT_BUFF",
+            "alias": "PW_PT_BUFF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_DIST",
+            "alias": "PW_DIST",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_DIST2",
+            "alias": "PW_DIST2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "AREA_HA",
+            "alias": "AREA_HA",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PW_VALUE",
+            "alias": "PW_VALUE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_COM",
+            "alias": "PW_COM",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_CONF",
+            "alias": "PW_CONF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_HAB",
+            "alias": "PW_HAB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PW_POINT_H",
+            "alias": "PW_POINT_H",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Habitat Suitability Model (v7.0)",
+      "id": "Environmental_6896_15",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/15"
+      },
+      "show": false
+    },
+    {
+      "name": "Modelled potential habitat - threatened species",
+      "id": "Environmental_6896_16",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/16",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Adev",
+            "alias": "Adev",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AreaHA",
+            "alias": "AreaHA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Assessable Development Areas",
+      "id": "Environmental_6896_21",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/21",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "KHA",
+            "alias": "KHA",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HECTARES",
+            "alias": "HECTARES",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "COMMENTS",
+            "alias": "COMMENTS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Id Koala Broad-Hectare Areas",
+      "id": "Environmental_6896_22",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/22",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Koala Protection Area",
+      "id": "Environmental_6896_23",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/23"
+      },
+      "show": false
+    },
+    {
+      "name": "SPP Koala Habitat Value",
+      "id": "Environmental_6896_24",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/24"
+      },
+      "show": false
+    },
+    {
+      "name": "SPRP Koala Habitat Value",
+      "id": "Environmental_6896_25",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/25",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STA_BUF",
+            "alias": "STA_BUF",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "REG_BUF",
+            "alias": "REG_BUF",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QREG",
+            "alias": "QREG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Plan 2006-2016",
+      "id": "Environmental_6896_26",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/26",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SIGNIF",
+            "alias": "SIGNIF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BUFDIS",
+            "alias": "BUFDIS",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Q_REG",
+            "alias": "Q_REG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Koala habitat mapping (RPS report)",
+      "id": "Environmental_6896_27",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/27",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SIGNIF",
+            "alias": "SIGNIF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "COR_TYPE",
+            "alias": "COR_TYPE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Modelled potential habitat - threatened species",
+      "id": "Environmental_6896_28",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/28",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Q_REG",
+            "alias": "Q_REG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Q_REG_NAME",
+            "alias": "Q_REG_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Q_SUB",
+            "alias": "Q_SUB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Q_SUB_NAME",
+            "alias": "Q_SUB_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Essential habitat map",
+      "id": "Environmental_6896_30",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/30",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "BVG1M",
+            "alias": "BVG1M",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BVG1M_PC",
+            "alias": "BVG1M_PC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DBVG1M",
+            "alias": "DBVG1M",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DBVG2M",
+            "alias": "DBVG2M",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DBVG5M",
+            "alias": "DBVG5M",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Version",
+            "alias": "Version",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Riparian centrelines (v1.2)",
+      "id": "Environmental_6896_33",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/33",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "WETCLASS",
+            "alias": "WETCLASS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HYDROMOD",
+            "alias": "HYDROMOD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WETRE",
+            "alias": "WETRE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WETREPCT",
+            "alias": "WETREPCT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SALINMOD",
+            "alias": "SALINMOD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WTRREGIME",
+            "alias": "WTRREGIME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WETSUB",
+            "alias": "WETSUB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XRE",
+            "alias": "XRE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XRE_PERCEN",
+            "alias": "XRE_PERCEN",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XRE_CLASS",
+            "alias": "XRE_CLASS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XRE_SAL_MO",
+            "alias": "XRE_SAL_MO",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LEGEND",
+            "alias": "LEGEND",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CATCHMENT",
+            "alias": "CATCHMENT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DRAINAGEDI",
+            "alias": "DRAINAGEDI",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HAB",
+            "alias": "HAB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FLOODPLAIN",
+            "alias": "FLOODPLAIN",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WETLAND_ID",
+            "alias": "WETLAND_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WETLAND_AR",
+            "alias": "WETLAND_AR",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CLIMATE_CA",
+            "alias": "CLIMATE_CA",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ECOTOPE_ID",
+            "alias": "ECOTOPE_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ECOTOPE_AR",
+            "alias": "ECOTOPE_AR",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WETCLASS_",
+            "alias": "WETCLASS_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HYDROMOD_",
+            "alias": "HYDROMOD_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SALINMOD_",
+            "alias": "SALINMOD_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WTRREGIME_",
+            "alias": "WTRREGIME_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FLOODPLA_1",
+            "alias": "FLOODPLA_1",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HAB_",
+            "alias": "HAB_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE_",
+            "alias": "SOURCE_",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Terrestrial centrelines (v1.2)",
+      "id": "Environmental_6896_34",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/34",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "RAMSAR_NAM",
+            "alias": "RAMSAR_NAM",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DESIGNATIO",
+            "alias": "DESIGNATIO",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MANAGE_AUT",
+            "alias": "MANAGE_AUT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Buffers (v1.2)",
+      "id": "Environmental_6896_35",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/35",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "WET_AGGR",
+            "alias": "WET_AGGR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "AREA_HA",
+            "alias": "AREA_HA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AGGR_AREA",
+            "alias": "AGGR_AREA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ANCACODE",
+            "alias": "ANCACODE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LOCATION",
+            "alias": "LOCATION",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BGR",
+            "alias": "BGR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEAT_CODE",
+            "alias": "FEAT_CODE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "REFCODE",
+            "alias": "REFCODE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WNAME",
+            "alias": "WNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STATE",
+            "alias": "STATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DATE_SUPPL",
+            "alias": "DATE_SUPPL",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UPDATED",
+            "alias": "UPDATED",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CODE",
+            "alias": "CODE",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ORIGINAL",
+            "alias": "ORIGINAL",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AGGR_CODE",
+            "alias": "AGGR_CODE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATURES",
+            "alias": "FEATURES",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Biogeographic Subregions",
+      "id": "Environmental_6896_36",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/36"
+      },
+      "show": false
+    },
+    {
+      "name": "Pre-Clearing",
+      "id": "Environmental_6896_38",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/38"
+      },
+      "show": false
+    },
+    {
+      "name": "Remnant",
+      "id": "Environmental_6896_39",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/39",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "WORKING_2",
+            "alias": "WORKING_2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Flora Survey Trigger Areas (v4.1)",
+      "id": "Environmental_6896_40",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/40"
+      },
+      "show": false
+    },
+    {
+      "name": "Qld Heritage Register",
+      "id": "Environmental_6896_42",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/42"
+      },
+      "show": false
+    },
+    {
+      "name": "Ground Truthed Regional Ecosystems",
+      "id": "Environmental_6896_44",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/44"
+      },
+      "show": false
+    },
+    {
+      "name": "RPS - 2016",
+      "id": "Environmental_6896_46",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/46"
+      },
+      "show": false
+    },
+    {
+      "name": "GHD - 2015",
+      "id": "Environmental_6896_47",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/47"
+      },
+      "show": false
+    },
+    {
+      "name": "Koala habitat mapping (RPS report)",
+      "id": "Environmental_6896_49",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/49"
+      },
+      "show": false
+    },
+    {
+      "name": "Tusked frog (Adelotus Brevis)",
+      "id": "Environmental_6896_53",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/53"
+      },
+      "show": false
+    },
+    {
+      "name": "Wallum Froglet (Crinia tinnula)",
+      "id": "Environmental_6896_54",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/54"
+      },
+      "show": false
+    },
+    {
+      "name": "Wallum Rocket Frog (Litoria freycineti)",
+      "id": "Environmental_6896_55",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/55"
+      },
+      "show": false
+    },
+    {
+      "name": "Wallum Sedge Frog (Litoria olongburensis)",
+      "id": "Environmental_6896_56",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/56"
+      },
+      "show": false
+    },
+    {
+      "name": "Pearson's green tree frog (Litoria Pearsoniana)",
+      "id": "Environmental_6896_57",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/57"
+      },
+      "show": false
+    },
+    {
+      "name": "Giant barred frog (Mixophyes Iteratus)",
+      "id": "Environmental_6896_58",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/58"
+      },
+      "show": false
+    },
+    {
+      "name": "Mount Glorious day frog (Taudactylus Diurnus)",
+      "id": "Environmental_6896_59",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/59"
+      },
+      "show": false
+    },
+    {
+      "name": "Australasian bittern (Botaurus Poiciloptilus)",
+      "id": "Environmental_6896_61",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/61"
+      },
+      "show": false
+    },
+    {
+      "name": "Regent honeyeater (Anthochaera Phrygia)",
+      "id": "Environmental_6896_62",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/62"
+      },
+      "show": false
+    },
+    {
+      "name": "Glossy black cockatoo (Calyptorhynchus Llathami)",
+      "id": "Environmental_6896_63",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/63"
+      },
+      "show": false
+    },
+    {
+      "name": "Coxen's fig parrot (Cyclopsitta Diophthalma Coxeni)",
+      "id": "Environmental_6896_64",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/64"
+      },
+      "show": false
+    },
+    {
+      "name": "Red goshawk (Erythrotriorchis Radiatus)",
+      "id": "Environmental_6896_65",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/65"
+      },
+      "show": false
+    },
+    {
+      "name": "Squatter Pidegon (Geophaps Scripta Scripta)",
+      "id": "Environmental_6896_66",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/66"
+      },
+      "show": false
+    },
+    {
+      "name": "Painted Honeyeater (Grantiella Picta)",
+      "id": "Environmental_6896_67",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/67"
+      },
+      "show": false
+    },
+    {
+      "name": "Swift Parrot (Lathamus discolor)",
+      "id": "Environmental_6896_68",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/68"
+      },
+      "show": false
+    },
+    {
+      "name": "Powerful Owl (Ninox Strenua)",
+      "id": "Environmental_6896_69",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/69"
+      },
+      "show": false
+    },
+    {
+      "name": "Eastern ground parrot (Pezoporus wallicus)",
+      "id": "Environmental_6896_70",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/70"
+      },
+      "show": false
+    },
+    {
+      "name": "Marbled Frogmouth (Podargus Ocellatus Plumiferus)",
+      "id": "Environmental_6896_71",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/71"
+      },
+      "show": false
+    },
+    {
+      "name": "Australian Painted Snipe (Rostratula Australis)",
+      "id": "Environmental_6896_72",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/72"
+      },
+      "show": false
+    },
+    {
+      "name": "Southern emu-wren (Stipiturus Malachurus)",
+      "id": "Environmental_6896_73",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/73"
+      },
+      "show": false
+    },
+    {
+      "name": "Black-breasted buttonquail (Turnix Melanogaster)",
+      "id": "Environmental_6896_74",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/74"
+      },
+      "show": false
+    },
+    {
+      "name": "Illidge's ant-blue butterfly (Acrodipsas Illidgei)",
+      "id": "Environmental_6896_76",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/76"
+      },
+      "show": false
+    },
+    {
+      "name": "Australian fritillary butterfly (Argyreus Hyperbius Inconstans)",
+      "id": "Environmental_6896_77",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/77"
+      },
+      "show": false
+    },
+    {
+      "name": "Richmond birdwing Butterfly (Ornithoptera Richmondia)",
+      "id": "Environmental_6896_78",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/78"
+      },
+      "show": false
+    },
+    {
+      "name": "Three-toed snake-tooth skink (Coeranoscincus Reticulatus)",
+      "id": "Environmental_6896_80",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/80"
+      },
+      "show": false
+    },
+    {
+      "name": "Yakka Skink (Egernia Rugosa)",
+      "id": "Environmental_6896_81",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/81"
+      },
+      "show": false
+    },
+    {
+      "name": "Large-eared pied bat (Chalinolobus Dwyeri)",
+      "id": "Environmental_6896_83",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/83"
+      },
+      "show": false
+    },
+    {
+      "name": "Grey-headed Flying Fox (Pteropus Poliocephalus)",
+      "id": "Environmental_6896_84",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/84"
+      },
+      "show": false
+    },
+    {
+      "name": "Northern quoll (Dasyurus Hallucatus)",
+      "id": "Environmental_6896_86",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/86"
+      },
+      "show": false
+    },
+    {
+      "name": "Spot-Tailed Quoll (Dasyurus Maculatus Maculatus)",
+      "id": "Environmental_6896_87",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/87"
+      },
+      "show": false
+    },
+    {
+      "name": "Koala (Phascolarctos cinereus)",
+      "id": "Environmental_6896_88",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/88"
+      },
+      "show": false
+    },
+    {
+      "name": "Long-nosed Potoroo (Potorous Tridactylus Tridactylus)",
+      "id": "Environmental_6896_89",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/89"
+      },
+      "show": false
+    },
+    {
+      "name": "New Holland Mouse (Pseudomys Novaehollandiae)",
+      "id": "Environmental_6896_90",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/90"
+      },
+      "show": false
+    },
+    {
+      "name": "False water rat (Xeromys Myoides)",
+      "id": "Environmental_6896_91",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Environmental/MapServer/91"
+      },
+      "show": false
+    },
+    {
+      "name": "Waterways - Estuary",
+      "id": "Waterway_7380_1",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Waterway/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "FISH_PASS",
+            "alias": "FISH_PASS",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "SHAPE_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Waterways - Stream",
+      "id": "Waterway_7380_2",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Waterway/MapServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "FISH_PASS",
+            "alias": "FISH_PASS",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Contours - Survey",
+      "id": "Terrain_1352_0",
+      "layer": {
+        "url": "https://digitalau.arup.com/arcgis/rest/services/251880_BHUP/Terrain/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "FileName",
+            "alias": "FileName",
+            "show": false
+          },
+          {
+            "name": "LayerDescription",
+            "alias": "LayerDescription",
+            "show": false
+          },
+          {
+            "name": "DateUpdated",
+            "alias": "DateUpdated",
+            "show": false
+          },
+          {
+            "name": "LayerName",
+            "alias": "LayerName",
+            "show": false
+          },
+          {
+            "name": "Type",
+            "alias": "Type",
+            "show": false
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "SHAPE_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Elevation",
+            "alias": "Elevation",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": false
+}

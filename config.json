@@ -1,0 +1,296 @@
+{
+  "theme": {
+    "name": "DartTheme",
+    "styles": [
+      "pink",
+      "default",
+      "purple",
+      "blue",
+      "turquoise",
+      "green",
+      "orange",
+      "red"
+    ],
+    "version": "2.2",
+    "customStyles": {
+      "mainBackgroundColor": "#008c95"
+    }
+  },
+  "portalUrl": "http://arup.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [
+    "gisdata.arup.com",
+    "n-ygisweb01.arup.com"
+  ],
+  "title": "Caloundra Road to Sunshine Motorway",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images\\logo.jpeg",
+  "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/DartTheme/widgets/DartController/Widget",
+        "position": {
+          "left": 0,
+          "right": 0,
+          "bottom": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "themes_DartTheme_widgets_DartController_Widget_23",
+        "name": "DartController"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_OverviewMap_Widget_24",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_OverviewMap.json"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 1,
+          "zIndex": 100,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Scalebar_Widget_25",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_Scalebar.json"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "right": 10,
+          "bottom": -2,
+          "zIndex": 100,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Coordinate_Widget_26",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_Coordinate.json"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.2",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_27",
+        "name": "AttributeTable",
+        "featureActions": [
+          {
+            "name": "ShowRelatedRecords",
+            "uri": "actions/ShowRelatedRecordsFeatureAction"
+          },
+          {
+            "name": "ViewInTable",
+            "uri": "actions/ViewInAttributeTableFeatureAction"
+          }
+        ],
+        "config": "configs/AttributeTable/config_AttributeTable.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "widgets_Splash_Widget_28",
+        "name": "Splash",
+        "config": "configs/Splash/config_Splash.json"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "95f06dde79b54b0cb2e9b58778926e43",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "http://arup.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/DartTheme/panels/DartPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "isPreconfiguredInTheme": true,
+        "id": "widgets_ZoomSlider_Widget_29",
+        "name": "ZoomSlider",
+        "version": "2.2",
+        "position": {
+          "relativeTo": "map"
+        },
+        "index": 2
+      },
+      {
+        "name": "HomeButton",
+        "version": "2.2",
+        "uri": "widgets/HomeButton/Widget",
+        "index": 3,
+        "id": "widgets_HomeButton_Widget_30",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "MyLocation",
+        "version": "2.2",
+        "uri": "widgets/MyLocation/Widget",
+        "index": 4,
+        "id": "widgets_MyLocation_Widget_31",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "Search",
+        "version": "2.2",
+        "uri": "widgets/Search/Widget",
+        "config": "configs/Search/config_Search.json",
+        "index": 5,
+        "id": "widgets_Search_Widget_32",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "Measurement",
+        "version": "2.2",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_Measurement.json",
+        "index": 6,
+        "id": "widgets_Measurement_Widget_35"
+      },
+      {
+        "name": "Share",
+        "version": "2.2",
+        "uri": "widgets/Share/Widget",
+        "config": "configs/Share/config_Share.json",
+        "index": 7,
+        "id": "widgets_Share_Widget_20"
+      },
+      {
+        "name": "Select",
+        "version": "2.2",
+        "uri": "widgets/Select/Widget",
+        "config": "configs/Select/config_Select.json",
+        "index": 8,
+        "id": "widgets_Select_Widget_34"
+      },
+      {
+        "name": "StreetViewPopup",
+        "version": "1.1.0.1",
+        "uri": "widgets/StreetViewPopup/Widget",
+        "config": "configs/StreetViewPopup/config_StreetViewPopup.json",
+        "index": 9,
+        "id": "widgets_StreetViewPopup_Widget_21"
+      },
+      {
+        "name": "ElevationProfile",
+        "version": "2.1",
+        "IsController": false,
+        "uri": "widgets/ElevationProfile/Widget",
+        "config": "configs/ElevationProfile/config_ElevationProfile.json",
+        "index": 10,
+        "id": "widgets_ElevationProfile_Widget_33"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.2",
+        "id": "widgets_Legend_Widget_16",
+        "icon": "widgets/Legend/images/icon.png?wab_dv=2.1",
+        "name": "Legend",
+        "index": 11
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.2",
+        "id": "widgets_LayerList_Widget_17",
+        "icon": "widgets/LayerList/images/icon.png?wab_dv=2.1",
+        "name": "LayerList",
+        "index": 12
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.2",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_BasemapGallery.json",
+        "index": 13,
+        "id": "widgets_BasemapGallery_Widget_18",
+        "icon": "widgets/BasemapGallery/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "Print",
+        "version": "2.2",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_Print.json",
+        "index": 14,
+        "id": "widgets_Print_Widget_19",
+        "icon": "widgets/Print/images/icon.png?wab_dv=2.1",
+        "openAtStart": false
+      },
+      {
+        "name": "About",
+        "version": "2.2",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_About.json",
+        "index": 15,
+        "id": "widgets_About_Widget_22"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#008c95",
+    "backgroundImage": {
+      "visible": true,
+      "uri": "configs/loading/images/background.jpeg",
+      "width": 290,
+      "height": 136
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/2/configs/loading/images/predefined_loading_4.gif",
+      "width": 34,
+      "height": 34
+    }
+  },
+  "wabVersion": "2.2",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  }
+}
